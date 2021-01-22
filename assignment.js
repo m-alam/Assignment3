@@ -40,9 +40,9 @@ function hotelCost(day) {
 //problem number 4
 
 function megaFriend (name) {
-    var max=names[0];
-    for (var i = 0; i < names.length; i++) {
-        var element = names[i];
+    var max=name[0];
+    for (var i = 0; i < name.length; i++) {
+        var element = name[i];
         if(element.length>max.length){
             max=element;
         }
